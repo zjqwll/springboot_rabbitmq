@@ -15,7 +15,7 @@ import rabbitmq.mq.producer.ContractRabbitmqService;
 
 @RestController
 @RequestMapping(value = "/rabbitmq")
-public class RabbitMqTestController{
+public class RabbitMqController{
 	@Autowired
 	private ContractRabbitmqService contractRabbitmqService;
 	

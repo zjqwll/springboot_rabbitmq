@@ -16,11 +16,11 @@ import rabbitmq.SpringbootApplication;
 @SpringBootTest(classes = SpringbootApplication.class, webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 public class RabbitMqControllerTests {
 	@Autowired
-	private RabbitMqTestController rtController;
+	private RabbitMqController rmController;
 
 	@Test
-	public void indexServiceTest() {
+	public void RabbitMqTestControllerTest() {
 		String content ="";
-		rtController.contractDirect(content);
+		rmController.contractDirect(content);
 	}
 }

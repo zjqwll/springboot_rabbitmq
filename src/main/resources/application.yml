@@ -1,0 +1,11 @@
+#yml配置（发送方与接收方都要配置，但是发送方要有vhost的写权限， 接收方要有vhost的读权限）
+spring:
+  rabbitmq:
+    host: 192.168.2.8
+    port: 5672
+    username: admin
+    password: admin123
+    #如果没有配置可用"/"
+    virtual-host: /
+    #消息能收到回调（对publisher来说）
+    publisher-confirms: true

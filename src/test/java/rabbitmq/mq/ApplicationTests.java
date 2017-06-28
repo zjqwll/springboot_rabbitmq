@@ -1,4 +1,4 @@
-package rabbitmq.hello;
+package rabbitmq.mq;
 
 //import rabbitmq.hello.base.BaseTestCase;
 //import rabbitmq.hello.base.TestInject;
@@ -7,10 +7,10 @@ package rabbitmq.hello;
 //public class ApplicationTests extends BaseTestCase {
 //	
 //	@TestInject
-//	private MQController qc;
+//	private RabbitMqTestController rtController;
 //   
 //    @Test
-//    public void testMQController() throws Exception {
-//    	qc.manyToMany();
+//    public void testRabbitMqTestController() throws Exception {
+//    	rtController.contractDirect();
 //    }
 //}
